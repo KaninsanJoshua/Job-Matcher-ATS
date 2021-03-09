@@ -5,14 +5,17 @@
 	<link rel="stylesheet" href="../Style/style.css">
 </head>
 
-<body >
+<body class="background">
 	<div id="login-box">
 		<form name="login-form">
-			<label for="userID">Name</label>
+			<label for="userID" class="login-label">Name</label>
 			<input type="text" id="userID" name="userID"  class="textbox"/>
-			<label for="user-Password">Password</label>
+			<label for="user-Password" class="login-label">Password</label>
 			<input type="text" id="user-password" name="user-password"class="textbox"/>
+
+			<button type="submit" id="Login-submit"> Sign In</button>
 		</form>
+		<span class="reg-redirect">Don't have an account?<a href="registration.html" class="reg-link">Register Now</a></span>
 	</div>
 </body>
 

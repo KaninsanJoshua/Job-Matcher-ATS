@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="../Style/style.css">
+</head>
+<body class="background">
+	
+<form>
+	<div class="reg-info">
+	<div class="partition">
+	<label for="Name" class="reg-label">Name</label>
+	<input type="text" name="Name" id="Name" class="reg-textbox"></div>
+	<div class="partition">
+	<label for="pass" class="reg-label">Password</label>
+	<input type="password" name="pass" id="pass" class="reg-textbox">
+	</div>
+	<div class="partition">
+	<label for="UID" class="reg-label">User ID</label>
+	<input type="text" name="UID" id="UID" class="reg-textbox"></div>
+	<div class="textarea-partition">
+	<label for="Address" class="reg-label">Address</label>
+	<textarea name="address" id="address" rows="10" cols="50" class="reg-textarea"></textarea>
+	</div>
+	<div class="partition">
+	<label for="zip_code" class="reg-label">Zip code</label>
+	<input type="text" name="zip_code" id="zip_code" class="reg-textbox">
+	</div>
+	<div class="partition">
+	<label  class="reg-label"> Gender</label>
+	<input type="radio" name="sex" value="male" id="male">
+	<label for="male">male</label>
+	<input type="radio" name="sex" value="male" id="female">
+	<label for="female">female</label>
+	</div>
+	<div class="partition">
+	<label fotr="country" class="reg-label">Country</label>
+	<select name="country" id="country">
+		<option>Default</option>
+		<option>Indai</option>
+		<option>USA</option>
+		<option>UK</option>
+		<option>france</option>
+	</select>
+	</div>
+	<div class="partition">
+	<label class="reg-label"> Language</label>
+	<input type="checkbox" name="language" id="english">
+	<label for="english"> English</label>
+	<input type="checkbox" name="language" id="non-english">
+	<label for="non-english">Non-English</label>
+	</div>
+	<div class="textarea-partition">
+	<label for="about" class="reg-label">About</label>
+	<textarea rows="10" cols="80" name="about" id="about"></textarea>
+	</div>
+	</div>
+</form>
+</body>
+</html>
