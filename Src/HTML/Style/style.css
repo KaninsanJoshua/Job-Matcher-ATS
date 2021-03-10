@@ -1,7 +1,7 @@
 .background
 {
 	background-image: url("../Images/background-1.jpg");
-	background-size: 1600px 1000px;
+	background-size: 100% 100%;
 	color: white;
 	
 }
@@ -173,52 +173,63 @@ li.login
 }
 .reg-info
 {
-	width:100%;
-	background-color: #203647;
-	color: black;
-	height: 1000%;
+	width:90%;
+	color: #FFFFFF;
+	height: 150%;
 	padding-top: 10px;
+	background-image: linear-gradient(45deg,#000000,#0000FF,#203647 50%,#203647 50%,#0000FF,#000000);
+	margin: auto;
 }
 .reg-label
-{
-	color: yellow;
-	margin: 10px 10px 10px 30px;
-	top: 30px;
+{	
+	display: inline-block;
+	color: #FFFFFF;
+	margin: 20px 10px 0px 30px;
+	top: 10px;
 	position: relative;
-	padding-right: 10px;
+	width: 150px;
+	font-size: 20px;
 }
 .reg-textbox
 {
 	height:32px;
 	width: 70%;
-	border-color: #203647;
 	border-style: solid;
 	position: relative;
 	top:10px;
-	margin: 10px 0px 10px 30px;
+	margin: 10px 0px 10px 50px;
 }
-.reg-textarea
+input.reg-textbox:focus
 {
-	
-	border-color: #203647;
-	border-style: solid;
-	position: relative;
-	top:10px;
-	margin: 10px 0px 10px 30px;
-}
-.textarea-partition
-{
-	width:80%;
-	margin-left: 10%;
-	background-color: #4DA8DA;
-	height: 3%;
-	margin: 40px 10% -30px 10%;
+	border-width: 5px;
+	border-color: #4DA8DA;
 }
 .partition
 {
 	width:80%;
 	margin-left: 10%;
-	background-color: #4DA8DA;
-	height: 1%;
+	background-color: #000000;
+	height: 10%;
 	margin: 40px 10% -30px 10%;
+}
+.reg-submit
+{
+	margin-top: 10%;
+	position: relative;
+	margin-left:42%;
+	color: #FFFFFF;
+	background-color: #000000;
+	width:200px;
+	height: 50px;
+}
+.reg-heading
+{
+	color: #000000;
+	text-align: center;
+}
+.reg-check
+{
+	display: inline-block;
+	margin-right: 100px;
+	text-align: left;
 }
